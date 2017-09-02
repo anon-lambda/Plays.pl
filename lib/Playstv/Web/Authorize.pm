@@ -1,7 +1,7 @@
 package Playstv::Web::Authorize;
 
 use Mouse;
-with 'Playstv::Web::Role::Uri';
+use 'Playstv::Web::Role::Uri';
 
 has app_id => (
     is       => 'ro',
